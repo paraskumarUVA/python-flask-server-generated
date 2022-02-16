@@ -43,7 +43,7 @@ paths:
           description: not found
       x-openapi-router-controller: swagger_server.controllers.default_controller
     delete:
-      summary: gets student
+      summary: delete student
       description: |
         delete a single student
       operationId: delete_student
